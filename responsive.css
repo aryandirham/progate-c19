@@ -1,0 +1,36 @@
+@media all and (max-width: 1000px) {
+	
+}
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+	.header-right {
+		display: none;
+	}
+	.menu-icon {
+		display: block;
+		margin-right: 15px;
+		cursor: pointer;
+		transition: all 0.5s;
+	}
+	
+	.menu-icon:hover {
+		color: rgba(255, 255, 255, 0.3);
+	}
+	
+	.search {
+	border: none;
+	position: absolute
+	}
+	
+	.searching {
+		display: none;
+	}
+
+	button {
+		float: left;
+		background-size: 30px;
+	}
+	
+}
