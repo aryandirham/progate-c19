@@ -98,7 +98,7 @@ button {
 }
 
 .menu-icon {
-	display: none;
+	display: none !important;
 	float: right;
 	color: white;
 	float: right;
